@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуги - Legal Community</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cookie Banner -->
+    <div class="cookie-banner" id="cookieBanner">
+        <div class="cookie-content">
+            <p>Legal Community использует cookies для улучшения функциональности сайта. Продолжая использовать этот сайт, вы соглашаетесь с нашей <a href="#">Политикой использования cookies</a>.</p>
+            <div class="cookie-buttons">
+                <button class="btn btn-outline" id="essentialCookies">Только необходимые cookies</button>
+                <button class="btn btn-primary" id="acceptCookies">Принять cookies</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html" title="Главная страница">
+                        <span class="logo-text">Legal Community</span>
+                    </a>
+                </div>
+                <div class="header-right">
+                    <div class="search-container">
+                        <input type="text" placeholder="Поиск..." class="search-input">
+                        <button class="search-button" title="Поиск"><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="services.html" class="active">Услуги</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </nav>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span>Меню</span>
+                </button>
+            </div>
+        </div>
+        <div class="mobile-menu" id="mobileMenu">
+            <nav>
+                <ul>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="services.html" class="active">Услуги</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Title -->
+    <section class="page-title">
+        <div class="container">
+            <h1>Наши услуги</h1>
+            <p>Полный спектр юридических услуг в области корпоративного и международного права</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section">
+        <div class="container">
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://via.placeholder.com/600x400/1B365D/ffffff?text=Корпоративное+право" alt="Корпоративное право">
+                    </div>
+                    <div class="service-content">
+                        <h3>Корпоративное право</h3>
+                        <p>Полный спектр юридических услуг в области корпоративного права для компаний любого размера — от стартапов до международных корпораций.</p>
+                        <ul class="service-list">
+                            <li>Сопровождение сделок M&A</li>
+                            <li>Корпоративная реструктуризация</li>
+                            <li>Корпоративное управление</li>
+                            <li>Юридический аудит</li>
+                            <li>Защита интересов акционеров</li>
+                            <li>Сопровождение корпоративных споров</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://via.placeholder.com/600x400/1B365D/ffffff?text=Международное+право" alt="Международное право">
+                    </div>
+                    <div class="service-content">
+                        <h3>Международное право</h3>
+                        <p>Экспертные юридические услуги в области международного права, помогающие клиентам эффективно вести бизнес в глобальном масштабе.</p>
+                        <ul class="service-list">
+                            <li>Международные сделки</li>
+                            <li>Международный арбитраж</li>
+                            <li>Трансграничные споры</li>
+                            <li>Международное налоговое планирование</li>
+                            <li>Международная защита интеллектуальной собственности</li>
+                            <li>Соответствие международным нормам и стандартам</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional Services -->
+    <section class="additional-services">
+        <div class="container">
+            <h2>Дополнительные услуги</h2>
+            <div class="services-grid three-columns">
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <h3>Судебные споры</h3>
+                    <p>Представление интересов клиентов в судах всех инстанций, включая арбитражные суды и суды общей юрисдикции.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-file-contract"></i>
+                    </div>
+                    <h3>Договорное право</h3>
+                    <p>Разработка, анализ и сопровождение договоров любой сложности, минимизация рисков и защита интересов клиента.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-landmark"></i>
+                    </div>
+                    <h3>Налоговое право</h3>
+                    <p>Консультации по налоговым вопросам, налоговое планирование, представление интересов в налоговых органах.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Недвижимость</h3>
+                    <p>Юридическое сопровождение сделок с недвижимостью, проверка объектов, минимизация рисков.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Интеллектуальная собственность</h3>
+                    <p>Регистрация и защита объектов интеллектуальной собственности, борьба с нарушениями прав.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Трудовое право</h3>
+                    <p>Разработка трудовых договоров, консультации по трудовым спорам, представление интересов работодателя.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Approach Section -->
+    <section class="approach-section">
+        <div class="container">
+            <h2>Наш подход</h2>
+            <div class="approach-grid">
+                <div class="approach-item">
+                    <div class="approach-number">01</div>
+                    <h3>Индивидуальный подход</h3>
+                    <p>Мы разрабатываем индивидуальные решения для каждого клиента, учитывая особенности его бизнеса и потребности.</p>
+                </div>
+                <div class="approach-item">
+                    <div class="approach-number">02</div>
+                    <h3>Профессионализм</h3>
+                    <p>Наши юристы обладают высокой квалификацией и обширным опытом в различных отраслях права.</p>
+                </div>
+                <div class="approach-item">
+                    <div class="approach-number">03</div>
+                    <h3>Оперативность</h3>
+                    <p>Мы ценим время наших клиентов и стремимся предоставлять услуги в кратчайшие сроки.</p>
+                </div>
+                <div class="approach-item">
+                    <div class="approach-number">04</div>
+                    <h3>Конфиденциальность</h3>
+                    <p>Мы гарантируем полную конфиденциальность информации, полученной от клиентов.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Нужна консультация?</h2>
+            <p>Свяжитесь с нами для получения профессиональной юридической консультации</p>
+            <a href="contacts.html" class="btn btn-primary">Связаться с нами</a>
+        </div>
+    </section>
+
+    <!-- Chatbot Widget -->
+    <div class="chatbot-widget" id="chatbotWidget">
+        <div class="chatbot-button" id="chatbotToggle">
+            <i class="fas fa-comments chatbot-icon"></i>
+        </div>
+        <div class="chatbot-container" id="chatbotContainer">
+            <div class="chatbot-header">
+                <h3 class="chatbot-title">Онлайн-консультант</h3>
+                <button class="chatbot-close" id="chatbotClose">&times;</button>
+            </div>
+            <div class="chatbot-messages" id="chatbotMessages">
+                <div class="message bot">
+                    Здравствуйте! Я онлайн-консультант Legal Community. Чем я могу вам помочь?
+                </div>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" id="chatbotInput" placeholder="Введите сообщение...">
+                <button id="chatbotSend">Отправить</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <span class="logo-text">Legal Community</span>
+                </div>
+                <nav class="footer-nav">
+                    <ul>
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="services.html">Услуги</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-middle">
+                <div class="legal-links">
+                    <a href="#">Условия использования</a>
+                    <a href="#">Политика конфиденциальности</a>
+                    <a href="#">Политика использования cookies</a>
+                    <a href="#">Правовая информация</a>
+                </div>
+                <div class="social-links">
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Legal Community. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
